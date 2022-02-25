@@ -68,7 +68,7 @@ export default class App extends React.Component {
           keyExtractor={(item) => item.place_id}
           renderItem={({ item }) => <Text>{item.name}</Text>}
           style={{
-            backgroundColor: "grey",
+            backgroundColor: "#f4f4f4",
             width: "80%",
             margin: 60,
             padding: 5,
